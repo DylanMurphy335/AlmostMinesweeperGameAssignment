@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/dylanmurphy/Desktop/cAssignment2/game_func.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+game_func.h
+/Users/dylanmurphy/Desktop/cAssignment2/game_func.h
+
+/Users/dylanmurphy/Desktop/cAssignment2/game_func.h
+stdbool.h
+-
+
+/Users/dylanmurphy/Desktop/cAssignment2/main.c
+stdio.h
+-
+stdlib.h
+-
+curses.h
+-
+game_func.h
+/Users/dylanmurphy/Desktop/cAssignment2/game_func.h
+
